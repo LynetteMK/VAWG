@@ -1,6 +1,6 @@
-# VAWG Insight
+# What is Python?
 
-VAWG refers to Violence Against Women and Girls. The page provides a brief insight into what VAWG is, what the prevalent forms of the phenomenon are and the current action being taken.
+This is a documentation which provides a brief insight into what Python programming language is and also gives a beginner's tutorial to learn the language.
 
 
 # Page Content
@@ -10,30 +10,29 @@ VAWG refers to Violence Against Women and Girls. The page provides a brief insig
 An introduction to what VAWG is.
 
 
-#### Prevalent forms of VAWG
+#### Learn the basics
 An outline of the most prevalent forms of VAWG.
 
 
-#### Details about each of the following prevalent forms:
-Sexual Violence
-Domestic Violence
-Female Genital Mutilation
-Child Sexual Exploitation
-Stalking and Harrassment
+#### Beginner Tutorials:
+Hello World
+Variables
+Lists
+Basic Operators
+String Formatting
+Classes and Objects
+Functions
+Dictionaries
+Conditions
 
-
-
-##### What is being done to end VAWG?
-Measures being taken to prevent VAWG
 
 
 
 ##### Reference
 
-Source of content used in the page body.Here are some examples.
+Source of content used in the page body.Here is an example.
 ```
-"https://www.towerhamlets.gov.uk/lgnl/community_and_living/community_safety__crime_preve/domestic_violence/vawg/vawg.aspx
-https://www.haringey.gov.uk/social-care-and-health/health/public-health/domestic-violence-and-abuse-and-violence-against-women-and-girls/what-vawg/vawg-statistics
+https://www.python.org/doc/essays/blurb/
 ```
 
 
