@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/csschallenge1.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>What is Python programming language?</header>
+      <ul>
+        <a class="nav-link" href="#Overview" rel="internal"><li>Overview</li></a>
+        <a class="nav-link" href="#Learn_the_basics" rel="internal"><li>Learn the basics</li></a>
+        <a class="nav-link" href="#Hello_World" rel="internal"><li>Hello World</li></a>
+        <a class="nav-link" href="#Variables" rel="internal"><li>Variables</li></a>
+        <a class="nav-link" href="#Variable_Types" rel="internal"><li>Variable Types</li></a>
+        <a class="nav-link" href="#Lists" rel="internal"><li>Lists</li></a>
+        <a class="nav-link" href="#Basic_Operators" rel="internal"><li>Basic Operators</li></a>
+        <a class="nav-link" href="#Classes_and_Objects" rel="internal"><li>Classes and Objects</li></a>
+        <a class="nav-link" href="#Funtions" rel="internal"><li>Functions</li></a>
+        <a class="nav-link" href="#Dictionaries" rel="internal"><li>Dictionaries</li></a>
+        <a class="nav-link" href="#Conditions" rel="internal"><li>Conditions</li></a>
+        <a class="nav-link" href="#Reference" rel="internal"><li>Reference</li></a>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Overview">
+        <header>Overview</header>
+        <article>
+          <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.</p>
+
+    <p>Often, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.</p>
+
+    <p>Python is often compared to other interpreted languages such as Java, JavaScript, Perl, Tcl, or Smalltalk. Comparisons to C++, Common Lisp and Scheme can also be enlightening. In this section I will briefly compare Python to each of these languages. These comparisons concentrate on language issues only. In practice, the choice of a programming language is often dictated by other real-world constraints such as cost, availability, training, and prior investment, or even emotional attachment. Since these aspects are highly variable, it seems a waste of time to consider them much for this comparison.</p>
+
+    </article>
+        </section>
+      
+        <section class="main-section" id="Learn_the_basics">
+        <header>Learn the basics</header>
+        <p>Here are the basic things that one needs to know when it comes to Python.</p>
+        <li>Hello World</li>
+        <li>Variables</li>
+        <li>Variable Types</li>
+        <li>Lists</li>
+        <li>Basic Operators</li>
+        <li>Classes and Objects</li>
+        <li>Functions</li>
+        <li>Dictionaries</li>
+        <li>Conditions</li>
+      
+      </section>
+     
+         <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <article>
+        <p>Python is a very simple language, and has a very straightforward syntax. It encourages programmers to program without boilerplate (prepared) code. The simplest directive in Python is the "print" directive - it simply prints out a line (and also includes a newline, unlike in C).</P>
+         
+         <p>Let's write our first Python program, "Hello, World!". It's a simple program that prints Hello World! on the standard output device (screen).</p>
+
+         <code>print("Hello, World!");</code>
+
+         <p>when you run the program, the output will be,</p>
+
+         <code>Hello, World!</code>
+
+         <p>In this program, we have used the built-in print() function to print Hello, world! string.</p>
+          </article>
+        </section>
+     
+        <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <article>
+    
+    <p>Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory. Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory. Therefore, by assigning different data types to variables, you can store integers, decimals or characters in these variables. Here is an example;</p>
+      
+    <code>a = 5</code>
+
+      <p>Here, a is a variable. We have assigned 5 to variable a.</p>
+
+          <p>We do not need to define variable type in Python. You can do something like this:</p>
+
+          <code>a = 5
+              print("a =", 5)
+              a = "High five"
+              print("a =", a)</code>
+
+        <p>Initially, integer value 5 is assigned to the variable a. Then, the string High five is assigned to the same variable.</p>
+
+            <p>By the way, 5 is a numeric literal and "High five" is a string literal.</p>
+            
+            <p>When you run the program, the output will be:</p>   
+            
+            <code>a = 5
+                a = High five</code>
+
+      </article>
+        </section>
+        
+        <section class="main-section" id="Variable_Types">
+            <header>Variable_Types</header>
+            <article>
+        
+        <p>There are mainly two variable types; strings and numbers. As earlier said, you do not need to declare variables before using them, or declare their type. Every variable in Python is an object.
+          
+          Python supports two types of numbers - integers and floating point numbers. (It also supports complex numbers, which will not be explained in this tutorial).
+
+            To define an integer, use the following syntax</p>
+          
+          <code>myint = 7
+              print(myint)</code>
+    
+          <p>To define a floating point number, you may use one of the following notations:</p>
+    
+          <code>myfloat = 7.0
+              print(myfloat)
+              myfloat = float(7)
+              print(myfloat)</code>
+              
+              <p>A string is a sequence of characters. Here are different ways to create a string. Strings are defined either with a single quote or a double quotes. The difference between the two is that using double quotes makes it easy to include apostrophes (whereas these would terminate the string if using single quotes)</p>
+    
+              <code>mystring = 'hello'
+                  print(mystring)
+                  mystring = "hello"
+                  print(mystring)</code>
+    
+          </article>
+            </section>
+          
+      
+        <section class="main-section" id="Lists">
+        <header>Lists</header>
+        <article>
+        <p>A list is created by placing all the items (elements) inside a square bracket [] separated by commas.
+
+            It can have any number of items and they may be of different types (integer, float, string etc.)</p>
+          
+            <code># empty list
+                my_list = []
+                
+                # list of integers
+                my_list = [1, 2, 3]
+                
+                # list with mixed data types
+                my_list = [1, "Hello", 3.4]</code>
+         </article>
+       </section>
+
+      <section class="main-section" id="Basic_Operators">
+        <header>Basic Operators</header>
+        <article>
+    
+          <p>Operators are special symbols that carry out operations on operands (variables and values).
+
+              Let's talk about arithmetic and assignment operators in this part.
+              
+              Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication etc.</p> 
+            
+            <code>x = 14
+                y = 4
+                
+                # Add two operands
+                print('x + y =', x+y) # Output: x + y = 18
+                
+                # Subtract right operand from the left
+                print('x - y =', x-y) # Output: x - y = 10
+                
+                # Multiply two operands
+                print('x * y =', x*y) # Output: x * y = 56
+                
+                # Divide left operand by the right one 
+                print('x / y =', x/y) # Output: x / y = 3.5
+                
+                # Floor division (quotient)
+                print('x // y =', x//y) # Output: x // y = 3
+                
+                # Remainder of the division of left operand by the right
+                print('x % y =', x%y) # Output: x % y = 2
+                
+                # Left operand raised to the power of right (x^y)
+                print('x ** y =', x**y) # Output: x ** y = 38416</code>
+          
+              <p> There are also assignmenr operators. Assignment operators are used to assign values to variables. You have already seen the use of = operator. Other commonly used assignment operators: -=, *=, %=, //= and **=.</p>
+                </article>
+        </section>
+
+      <section class="main-section" id="Classes_and_Objects">
+        <header>Classes and Objects</header>
+        <article>
+         <p>Python is a multi-paradigm programming language. Meaning, it supports different programming approach.
+
+            One of the popular approach to solve a programming problem is by creating objects. This is known as Object-Oriented Programming (OOP).
+            
+            An object has two characteristics:
+            
+            attributes
+            behavior
+            A class is a blueprint for the object.</p>
+           </article>
+        </section>
+
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <article>
+    <p>In Python, a function is a group of related statements that perform a specific task.
+
+        Functions help break our program into smaller and modular chunks. As our program grows larger and larger, functions make it more organized and manageable.
+        
+        Furthermore, it avoids repetition and makes code reusable.
+        
+        Syntax of Function</p>
+      
+        <code>def function_name(parameters):
+            """docstring"""
+            statement(s)</code>
+      </article>
+        </section>
+
+        <section class="main-section" id="Dictionaries">
+            <header>Dictionaries</header>
+            <article>
+            <p>Dictionary is an unordered collection of items. While other compound data types have only value as an element, a dictionary has a key: value pair.
+                A dictionary is a data type similar to arrays, but works with keys and values instead of indexes. Each value stored in a dictionary can be accessed using a key, which is any type of object (a string, a number, a list, etc.) instead of using its index to address it.
+
+                For example, a database of phone numbers could be stored using a dictionary like this:
+            </p>
+              
+              <code>phonebook = {}
+                  phonebook["John"] = 938477566
+                  phonebook["Jack"] = 938377264
+                  phonebook["Jill"] = 947662781
+                  print(phonebook)</code>
+             
+                </article>
+           </section>
+
+           <section class="main-section" id="Conditions">
+              <header>Conditions</header>
+              <article>
+              <p>Python uses boolean variables to evaluate conditions. The boolean values True and False are returned when an expression is compared or evaluated. For example:</p>
+                
+                <code>x = 2
+                    print(x == 2) # prints out True
+                    print(x == 3) # prints out False
+                    print(x < 3) # prints out True</code>
+               </article>
+             </section>
+      
+    <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          Information found on this page is directly taken from the following sites;
+         <li><a href="https://www.python.org/doc/essays/blurb/" target="_blank">What is Python?</a>
+         <li><a href="https://www.learnpython.org/" target="_blank">Learn Python</a>
+         <li><a href="https://www.tutorialspoint.com/python/" target="_blank">Tutorials Point</a>
+         <li><a href="https://www.programiz.com/python-programming/tutorial" target="_blank">Python 3 tutorial</a>
+         
+        </article> 
+        </section>
+    </main>
+
+  </body>
+</html>
