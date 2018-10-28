@@ -41,4 +41,8 @@ https://www.python.org/doc/essays/blurb/
 * html
 * css
 
-
+## Acknowledgement
+* https://www.python.org/doc/essays/blurb/
+* https://www.learnpython.org/
+* https://www.tutorialspoint.com/python/
+* https://www.programiz.com/python-programming/tutorial
