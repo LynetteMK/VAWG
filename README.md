@@ -7,11 +7,11 @@ This is a documentation which provides a brief insight into what Python programm
 
 
 ### Overview
-An introduction to what VAWG is.
+An introduction to what python is.
 
 
 #### Learn the basics
-An outline of the most prevalent forms of VAWG.
+the basic thing things you should learn when it comes to python.
 
 
 #### Beginner Tutorials:
