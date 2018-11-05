@@ -15,15 +15,16 @@ the basic thing things you should learn when it comes to python.
 
 
 #### Beginner Tutorials:
-Hello World
-Variables
-Lists
-Basic Operators
-String Formatting
-Classes and Objects
-Functions
-Dictionaries
-Conditions
+* <a href="https://www.learnpython.org/" target="_blank">Hello World</a>
+* <a href="https://www.learnpython.org/" target="_blank">Variables</a>
+* <a href="https://www.tutorialspoint.com/python/" target="_blank">Lists</a>
+* <a href="https://www.tutorialspoint.com/python/" target="_blank">Basic Operators</a>
+* <a href="https://www.tutorialspoint.com/python/" target="_blank">String Formatting</a>
+* <a href="https://www.learnpython.org/" target="_blank">Classes and Objects</a>
+* <a href="https://www.tutorialspoint.com/python/" target="_blank">Functions</a>
+* <a href="https://www.programiz.com/python-programming/tutorial" target="_blank">Dictionaries</a>
+* <a href="https://www.programiz.com/python-programming/tutorial" target="_blank">Conditions</a>
+
 
 
 
