@@ -11,7 +11,7 @@ An introduction to what python is.
 
 
 #### Learn the basics
-the basic thing things you should learn when it comes to python.
+the basic things you should learn when it comes to python.
 
 
 #### Beginner Tutorials:
